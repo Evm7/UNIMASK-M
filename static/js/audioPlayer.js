@@ -17,7 +17,7 @@ function toggleAudio() {
     audio.play();
     playIcon.classList.remove('fa-play');
     playIcon.classList.add('fa-pause');
-    playText.textContent = 'Pause Podcast';
+    playText.textContent = 'Podcast';
 
     if (isFirstPlay) {
       showControls();  // Show the controls when playing for the first time
@@ -29,7 +29,7 @@ function toggleAudio() {
     audio.pause();
     playIcon.classList.remove('fa-pause');
     playIcon.classList.add('fa-play');
-    playText.textContent = 'Listen Podcast';
+    playText.textContent = 'Podcast';
   }
 }
 
