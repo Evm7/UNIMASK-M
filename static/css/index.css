@@ -9,6 +9,8 @@ body {
 }
 
 .link-block a {
+    display: inline-block;
+    vertical-align: middle;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -117,6 +119,18 @@ body {
 }
 
 .publication-body img {
+}
+
+.publication-links {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Ensures vertical alignment */
+  gap: 5px; /* Add some space between buttons */
+}
+
+.audio-player {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .results-carousel {
